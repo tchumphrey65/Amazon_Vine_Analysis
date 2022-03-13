@@ -57,7 +57,7 @@ Vine Table
 
 ## Amazon Reviews ETL - Deliverable 2
 
-### Dataframes created, Filtered ( >20 and >50% positive) 
+### 1. Dataframes created, Filtered ( >20 and >50% positive) 
 
 Vine Dataframe
 
@@ -80,6 +80,8 @@ Dataframe filtered to create a DataFrame where there is not a Vine review
 
 ![Del2_vine_N](https://user-images.githubusercontent.com/91839403/158082967-27165ecf-47ab-46b9-8158-fd0fc8b3cc2b.jpg)
 
+### 2. Review data analysis
+
 Data analysis to calculate total number of reviews, 5 Star reviews and percentages for both Vine and Non-Vine reviews 
 
 ![review_analysis_totals](https://user-images.githubusercontent.com/91839403/158083010-2c35f30b-b0e9-4628-bd3f-f3a9b4522926.jpg)
@@ -87,6 +89,40 @@ Data analysis to calculate total number of reviews, 5 Star reviews and percentag
 Percentage of 5 Star reviews
 
 ![Percentage_five_star_reviews](https://user-images.githubusercontent.com/91839403/158083048-22f549d5-1623-48a0-bbe3-cf02beffb537.jpg)
+
+
+## Written Analysis - Deliverable 3
+
+## Overview of the analysis: 
+
+The purpose of this project is to analyze Amazon reviews written by members of the paid Amazon Vine program. Companies occasionlly are willing to pay a small fee to Amazon and provide products to Amazon Vine members where the members are then required to publish a review of the product.  Our project will be an analysis of review data from paid and unpaid members to determine if there is any favorable reviews bias from Vine members in your dataset.  At a minimum this analysis will validate the quality of reviews when mambers are being paid to provide them.
+
+## Results:
+
+For the outdoor products review data analyzed the we determined the following:
+
+Total Reviews - 39,976
+Total Vine Program Paid Reviews - 107
+Total Program unpaid reviews - 39,869
+
+5 Star Reviews total - 21,061
+5 Star rating Paid reviews - 56
+5 Star Rating unPaid reviews - 21,005
+
+Percentage 5 Star Reviews
+5 Star reviews - Paid 52.3%
+5 Star reviews - Unpaid 52.7%
+
+## Conclusion:
+
+The 5 star review percentage for paid vs. unpaid is 52%.  This shows aoverall 50% of people give these products a 5 star review and that regardless of the paid or unpaid status of the review the same percentage of people provide a 5 Star review.  This would show clearly that no bis exists favorable or unfavorable due to a customer being paid to provide a review.
+
+To support this conclusion we should condust the same analysis on several additioanl data sets available.  It might be benefical to study this by product type and demographic to see there are other factors that might skew the data one way or the other when paid to submit a review
+
+
+
+
+
 
 
 
